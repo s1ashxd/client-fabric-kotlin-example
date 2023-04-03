@@ -9,20 +9,20 @@ import kotlin.io.path.absolutePathString
 val MOD_ID = "modid"
 
 @JvmField
-val METADATA = FabricLoader.getInstance().getModContainer(MOD_ID).orElseThrow().metadata
+val MOD_METADATA = FabricLoader.getInstance().getModContainer(MOD_ID).orElseThrow().metadata
 
 @JvmField
-val FOLDER = FabricLoader.getInstance().gameDir.resolve(MOD_ID).absolutePathString()
+val MOD_FOLDER = FabricLoader.getInstance().gameDir.resolve(MOD_ID).absolutePathString()
 
 @JvmField
-val LOGGER = LoggerFactory.getLogger(MOD_ID)
+val MOD_LOGGER = LoggerFactory.getLogger(MOD_ID)
 
 fun init() {
-    println("Initializing")
+    println("Initialization")
 }
 
 fun postInit() {
-    println("Posting initialization")
+    println("Post initialization")
 }
 
 fun shutdown() {
