@@ -1,4 +1,4 @@
-# Fabric Kotlin Example
+# Fabric Kotlin Mod - Client-Side Example
 
 ## Setup
 
