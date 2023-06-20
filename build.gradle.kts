@@ -11,10 +11,10 @@ repositories {
 
 dependencies {
     minecraft("com.mojang:minecraft:${property("minecraft_version")}")
-    mappings("net.fabricmc:yarn:1.19.4+build.1:v2")
-    modImplementation("net.fabricmc:fabric-loader:0.14.19")
+    mappings("net.fabricmc:yarn:1.19.4+build.2:v2")
+    modImplementation("net.fabricmc:fabric-loader:0.14.21")
     modImplementation("net.fabricmc:fabric-language-kotlin:1.9.3+kotlin.1.8.20")
-    modImplementation("net.fabricmc.fabric-api:fabric-api:0.76.0+1.19.4")
+    modImplementation("net.fabricmc.fabric-api:fabric-api:0.83.0+1.19.4")
 }
 
 tasks {
